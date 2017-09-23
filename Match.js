@@ -50,6 +50,7 @@ resetButton.addEventListener("click",function(){
 colors = generateRandomColors(numSquares);
 pickedColor = pickColor();
 colorDisplay.textContent = pickedColor;
+message.textContent = "";
 h1.style.background = "steelblue";
 for(var i=0;i<squares.length;i++)
 {
